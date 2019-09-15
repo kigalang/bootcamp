@@ -1,0 +1,11 @@
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/bin/Debug/netcoreapp2.2/helloworld.deps.json
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/bin/Debug/netcoreapp2.2/helloworld.runtimeconfig.json
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/bin/Debug/netcoreapp2.2/helloworld.runtimeconfig.dev.json
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/bin/Debug/netcoreapp2.2/helloworld.dll
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/bin/Debug/netcoreapp2.2/helloworld.pdb
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/obj/Debug/netcoreapp2.2/helloworld.csprojAssemblyReference.cache
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/obj/Debug/netcoreapp2.2/helloworld.csproj.CoreCompileInputs.cache
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/obj/Debug/netcoreapp2.2/helloworld.AssemblyInfoInputs.cache
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/obj/Debug/netcoreapp2.2/helloworld.AssemblyInfo.cs
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/obj/Debug/netcoreapp2.2/helloworld.dll
+/Users/kgalang/Projects/bootcamp/CSharp/helloworld/obj/Debug/netcoreapp2.2/helloworld.pdb
