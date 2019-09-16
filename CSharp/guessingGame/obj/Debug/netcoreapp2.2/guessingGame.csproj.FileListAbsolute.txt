@@ -1,0 +1,11 @@
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/obj/Debug/netcoreapp2.2/guessingGame.csprojAssemblyReference.cache
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/obj/Debug/netcoreapp2.2/guessingGame.csproj.CoreCompileInputs.cache
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/obj/Debug/netcoreapp2.2/guessingGame.AssemblyInfoInputs.cache
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/obj/Debug/netcoreapp2.2/guessingGame.AssemblyInfo.cs
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/bin/Debug/netcoreapp2.2/guessingGame.deps.json
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/bin/Debug/netcoreapp2.2/guessingGame.runtimeconfig.json
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/bin/Debug/netcoreapp2.2/guessingGame.runtimeconfig.dev.json
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/bin/Debug/netcoreapp2.2/guessingGame.dll
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/bin/Debug/netcoreapp2.2/guessingGame.pdb
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/obj/Debug/netcoreapp2.2/guessingGame.dll
+/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/obj/Debug/netcoreapp2.2/guessingGame.pdb

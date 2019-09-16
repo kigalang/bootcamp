@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kgalang/Projects/bootcamp/CSharp/CSharp.csproj",
-      "projectName": "CSharp",
-      "projectPath": "/Users/kgalang/Projects/bootcamp/CSharp/CSharp.csproj",
+      "projectUniqueName": "/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/guessingGame.csproj",
+      "projectName": "guessingGame",
+      "projectPath": "/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/guessingGame.csproj",
       "packagesPath": "/Users/kgalang/.nuget/packages/",
-      "outputPath": "/Users/kgalang/Projects/bootcamp/CSharp/obj/",
+      "outputPath": "/Users/kgalang/Projects/bootcamp/CSharp/guessingGame/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
