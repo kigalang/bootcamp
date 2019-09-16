@@ -1,0 +1,11 @@
+/Users/kgalang/Projects/bootcamp/CSharp/calc/obj/Debug/netcoreapp2.2/calc.csprojAssemblyReference.cache
+/Users/kgalang/Projects/bootcamp/CSharp/calc/obj/Debug/netcoreapp2.2/calc.csproj.CoreCompileInputs.cache
+/Users/kgalang/Projects/bootcamp/CSharp/calc/obj/Debug/netcoreapp2.2/calc.AssemblyInfoInputs.cache
+/Users/kgalang/Projects/bootcamp/CSharp/calc/obj/Debug/netcoreapp2.2/calc.AssemblyInfo.cs
+/Users/kgalang/Projects/bootcamp/CSharp/calc/bin/Debug/netcoreapp2.2/calc.deps.json
+/Users/kgalang/Projects/bootcamp/CSharp/calc/bin/Debug/netcoreapp2.2/calc.runtimeconfig.json
+/Users/kgalang/Projects/bootcamp/CSharp/calc/bin/Debug/netcoreapp2.2/calc.runtimeconfig.dev.json
+/Users/kgalang/Projects/bootcamp/CSharp/calc/bin/Debug/netcoreapp2.2/calc.dll
+/Users/kgalang/Projects/bootcamp/CSharp/calc/bin/Debug/netcoreapp2.2/calc.pdb
+/Users/kgalang/Projects/bootcamp/CSharp/calc/obj/Debug/netcoreapp2.2/calc.dll
+/Users/kgalang/Projects/bootcamp/CSharp/calc/obj/Debug/netcoreapp2.2/calc.pdb

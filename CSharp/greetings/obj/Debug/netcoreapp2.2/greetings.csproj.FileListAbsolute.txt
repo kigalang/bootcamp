@@ -1,0 +1,11 @@
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/bin/Debug/netcoreapp2.2/greetings.deps.json
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/bin/Debug/netcoreapp2.2/greetings.runtimeconfig.json
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/bin/Debug/netcoreapp2.2/greetings.runtimeconfig.dev.json
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/bin/Debug/netcoreapp2.2/greetings.dll
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/bin/Debug/netcoreapp2.2/greetings.pdb
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/obj/Debug/netcoreapp2.2/greetings.csprojAssemblyReference.cache
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/obj/Debug/netcoreapp2.2/greetings.csproj.CoreCompileInputs.cache
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/obj/Debug/netcoreapp2.2/greetings.AssemblyInfoInputs.cache
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/obj/Debug/netcoreapp2.2/greetings.AssemblyInfo.cs
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/obj/Debug/netcoreapp2.2/greetings.dll
+/Users/kgalang/Projects/bootcamp/CSharp/greetings/obj/Debug/netcoreapp2.2/greetings.pdb
