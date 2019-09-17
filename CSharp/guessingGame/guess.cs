@@ -24,7 +24,7 @@ static void Main(string[] args)
     {
         guesses++;
         
-        Console.Write("Enter your guess: ");
+         
         int.TryParse(Console.ReadLine(), out userGuess);
 
         if (userGuess > numberToGuess)
