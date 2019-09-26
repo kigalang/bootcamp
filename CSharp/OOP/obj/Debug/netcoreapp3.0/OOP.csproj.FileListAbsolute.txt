@@ -1,0 +1,11 @@
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/bin/Debug/netcoreapp3.0/OOP
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/bin/Debug/netcoreapp3.0/OOP.deps.json
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/bin/Debug/netcoreapp3.0/OOP.runtimeconfig.json
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/bin/Debug/netcoreapp3.0/OOP.runtimeconfig.dev.json
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/bin/Debug/netcoreapp3.0/OOP.dll
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/bin/Debug/netcoreapp3.0/OOP.pdb
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/obj/Debug/netcoreapp3.0/OOP.csprojAssemblyReference.cache
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/obj/Debug/netcoreapp3.0/OOP.AssemblyInfoInputs.cache
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/obj/Debug/netcoreapp3.0/OOP.AssemblyInfo.cs
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/obj/Debug/netcoreapp3.0/OOP.dll
+/Users/kgalang/Projects/bootcamp/CSharp/OOP/obj/Debug/netcoreapp3.0/OOP.pdb
