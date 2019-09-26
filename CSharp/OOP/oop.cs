@@ -10,24 +10,37 @@ namespace OOP
             
             Car a = new Car();
             a.Color = "red";
-            a.MaxSpeed = 170;
+            a.MaxSpeed = 200;
             a.Start();
             Console.WriteLine("Car is running:" + a.MotorRunning);
             a.Accelerate();
-            Console.WriteLine("Car has accelerated. The speed is now:"+ a.Speed);
-
+            Console.WriteLine("Car has accelerated. The speed is now: "+ a.Speed);
             a.Brake();
-            Console.WriteLine ("Car is slowing down" + a.Speed);
-
+            Console.WriteLine ("Car is slowing down: " + a.Speed);
+            //Console.WriteLine("speed: " + a.Speed);
             a.Stop();
-            Console.WriteLine("Car has stopped:" + a.Speed);
+            Console.WriteLine("Car has stopped: The speed is now:" + a.Speed);
             
+/*          
             Car b = new Car();
-            b.MotorRunning = false; 
             b.Color = "grey";
+            b.MaxSpeed = 250;    
             b.Start();
-            b.MaxSpeed = 200;
 
+    
+
+            BigTruck TruckA = new BigTruck();
+            TruckA.Capacity = 40;
+            TruckA.Speed = 100;
+            TruckA.Start();
+            PrintColor(TruckA); 
+        
+*/
+        }
+
+        static void PrintColor (Car varA)
+        {
+            Console.WriteLine (varA.Color);
         }
     }
 }
