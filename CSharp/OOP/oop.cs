@@ -21,21 +21,26 @@ namespace OOP
             a.Stop();
             Console.WriteLine("Car has stopped: The speed is now:" + a.Speed);
             
-/*          
+        
             Car b = new Car();
             b.Color = "grey";
             b.MaxSpeed = 250;    
             b.Start();
+            b.Accelerate();
+            b.Accelerate();
+            Console.WriteLine("Car B's speed: " + b.Speed);
+
 
     
 
             BigTruck TruckA = new BigTruck();
+            TruckA.MaxSpeed = 80;
+            TruckA.Color = "white";
             TruckA.Capacity = 40;
-            TruckA.Speed = 100;
+            TruckA.Speed = 0;
             TruckA.Start();
             PrintColor(TruckA); 
         
-*/
         }
 
         static void PrintColor (Car varA)
