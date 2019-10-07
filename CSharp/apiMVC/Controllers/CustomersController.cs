@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using apiMVC.Models;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
@@ -19,49 +20,12 @@ namespace apiMVC.Controllers
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        [Route ("moi")]
-        public string SanoMoi()
+        public List<Customers>  ListaaKaikki() 
         {
-        return "Moikka!";    
+            NorthwindContext context = new NorthwindContext();
+            List<Customers> kaikki = context.Customers.ToList();
+            return kaikki;
         }
-        
-        [Route ("hei")]
-        public string SanoHei()
-        {
-        return "Heippa!";
-        }
-
-        [Route ("testi1")]
-        public int Num()
-        {
-            int i = 200;
-            return i;    
-        
-        }
-
-        [Route("testi2")]
-        public int[] Luvut()
-        {
-            int[] luvut = { 1, 2, 3, 4, 5 };
-            return luvut;
-        }
-
-        [Route("testi3")]
-        public bool Boolean()
-        {
-            return true;
-        }
-
-        [Route("testi4")]
-        public Auto Luokka()
-        {
-            Auto a = new Auto();
-            a.Väri = "Keltainen";
-            a.Huippunopeus = 245;
-            return a;
-        }
-
-
-
+    
     }
 }
