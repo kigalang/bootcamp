@@ -9,13 +9,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace apiMVC.Controllers
 {
 
-     public class Auto
-    {
-        public string Väri { get; set; }
-        public int Huippunopeus { get; set; }
-    }
-       
-
     [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : ControllerBase
