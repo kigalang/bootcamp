@@ -188,7 +188,7 @@ namespace apiMVC.Models
                 entity.Property(e => e.CustomerDesc).HasColumnType("ntext");
             });
 
-            modelBuilder.Entity< >(entity =>
+            modelBuilder.Entity<Customers>(entity =>
             {
                 entity.HasKey(e => e.CustomerId);
 
