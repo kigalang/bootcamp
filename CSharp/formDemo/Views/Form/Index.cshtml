@@ -1,7 +1,13 @@
-<form action="/Form/FormOne" method="post">
-    <input type="text" name="textBoxStringData" />
-    <input type="checkbox" name="checkboxData" />
-    <input type="number" name="textBoxIntData" />
+<form action="/form/submit" method="post">
+    <div id="item1">
+        <label for="textBoxStringData">Enter something:</label>
+        <input type="text" name="textBoxStringData" />
+    </div>
 
-    <input type="submit" value="Submit weakly typed form" />
+    <input type="checkbox" name="checkboxData" />
+    <div id="item2">
+        <input type="number" name="textBoxIntData" />    
+    </div>
+
+    <input type="submit" value="Submit" />
 </form>

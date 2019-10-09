@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Microsoft.AspNetCore.Mvc;
+using formDemo.Models;
 
 namespace formDemo.Controllers
 {
@@ -19,15 +20,18 @@ namespace formDemo.Controllers
 
         //Weakly typed synchronous form
         [HttpPost]
-        public ActionResult FormOne(string textBoxStringData, int textBoxIntData, string checkboxData)
+        public ActionResult Submit(string textBoxStringData, int textBoxIntData, bool checkboxData)
         {
+           /* FormData data = new FormData();
+            data.TextBoxStringData = textBoxStringData;
+            data.TextBoxIntData = textBoxIntData;
+            data.CheckboxData = checkboxData; */
+
             //redirects to a new page after receiving the form's values
             return RedirectToAction("NewPage");
         }
 
 
-       
-        // Called by FormOne 
         public ActionResult NewPage()
         {
             return View();
