@@ -14349,6 +14349,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Form/NewPage.cshtml",
+      "TargetPath": "Views/Form/NewPage.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Form/Index.cshtml",
       "TargetPath": "Views/Form/Index.cshtml",
       "FileKind": "mvc"
