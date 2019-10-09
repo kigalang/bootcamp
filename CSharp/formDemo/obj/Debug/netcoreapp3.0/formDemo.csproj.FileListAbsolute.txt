@@ -33,3 +33,4 @@
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/formDemo.dll
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/formDemo.pdb
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/formDemo.csproj.CopyComplete
+/Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/Razor/Views/Form/Index.cshtml.g.cs
