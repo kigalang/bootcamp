@@ -14,16 +14,26 @@ namespace formDemo.Controllers
         // GET: Form
         public ActionResult Index()
         {
+            FORMDBContext context = new FORMDBContext();
+            List<Lists> all = context.Lists.ToList();
+            ViewBag.AllListItems = all;
+
             return View();
         }
 
         [HttpPost]
-        public ActionResult Submit(string textBoxStringData, int textBoxIntData, bool checkboxData)
+        public ActionResult Submit(string textBoxStringData)
         {
-           /* FormData data = new FormData();
-            data.TextBoxStringData = textBoxStringData; */
-           
-            //redirects to a new page after receiving the form's values
+            FORMDBContext context = new FORMDBContext();
+            Lists newObject = new Lists() {
+                ListData = textBoxStringData,
+                ListTime = DateTime.Now
+            };
+
+            context.Lists.Add(newObject);
+            context.SaveChanges();
+
+
             return RedirectToAction("NewPage");
         }
 
