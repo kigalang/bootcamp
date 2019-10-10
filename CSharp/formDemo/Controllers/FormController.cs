@@ -17,16 +17,12 @@ namespace formDemo.Controllers
             return View();
         }
 
-
-        //Weakly typed synchronous form
         [HttpPost]
         public ActionResult Submit(string textBoxStringData, int textBoxIntData, bool checkboxData)
         {
            /* FormData data = new FormData();
             data.TextBoxStringData = textBoxStringData;
-            data.TextBoxIntData = textBoxIntData;
-            data.CheckboxData = checkboxData; */
-
+           
             //redirects to a new page after receiving the form's values
             return RedirectToAction("NewPage");
         }
