@@ -21,7 +21,7 @@ namespace formDemo.Controllers
         public ActionResult Submit(string textBoxStringData, int textBoxIntData, bool checkboxData)
         {
            /* FormData data = new FormData();
-            data.TextBoxStringData = textBoxStringData;
+            data.TextBoxStringData = textBoxStringData; */
            
             //redirects to a new page after receiving the form's values
             return RedirectToAction("NewPage");
