@@ -38,6 +38,15 @@ namespace formDemo.Controllers
         }
 
 
+        public ActionResult Show()
+
+        {
+             FORMDBContext context = new FORMDBContext();
+            List<Lists> all = context.Lists.ToList();
+            ViewBag.AllListItems = all;
+            return View();
+        }
+
         public ActionResult NewPage()
         {
             return View();
