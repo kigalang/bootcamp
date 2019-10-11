@@ -1,0 +1,22 @@
+
+<h1>Form Demo</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Data</th>
+            <th>Timestamp</th>    
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.AllListItems)
+        {
+        <tr>
+            <td>@item.ListId</td>
+            <td>@item.ListData</td>
+            <td>@item.ListTime</td>
+        </tr>
+        }
+    </tbody>
+</table>
