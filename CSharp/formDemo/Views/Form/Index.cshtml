@@ -1,11 +1,14 @@
 <form action="/form/submit" method="post">
-    <div id="item1">
+    <div id="item1" class="form-group">
         <label for="textBoxStringData">Enter text:</label>
         <input type="text" name="textBoxStringData" />
     </div>
+    <div class="form-group">
     <input type="submit" value="Submit" />
     </div>
 </form>
+
+
 <!--
 <div>
 <h1>List of database items</h1>
@@ -17,24 +20,3 @@
 -->
 
 
-<h1>Form Demo</h1>
-
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Data</th>
-            <th>Timestamp</th>    
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in ViewBag.AllListItems)
-        {
-        <tr>
-            <td>@item.ListId</td>
-            <td>@item.ListData</td>
-            <td>@item.ListTime</td>
-        </tr>
-        }
-    </tbody>
-</table>
