@@ -53,6 +53,11 @@ namespace formDemo.Controllers
             return View();
         }
         
+        public ActionResult test()
+        {
+            return View();
+        }
+
     }
 }
 

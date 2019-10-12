@@ -14344,6 +14344,11 @@
   "RootNamespace": "formDemo",
   "Documents": [
     {
+      "FilePath": "Views/Form/test.cshtml",
+      "TargetPath": "Views/Form/test.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views/Shared/_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

@@ -53,3 +53,4 @@
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/bin/Debug/netcoreapp3.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/Razor/Views/Form/Show.cshtml.g.cs
+/Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/Razor/Views/Form/test.cshtml.g.cs
