@@ -21,7 +21,6 @@
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/formDemo.TagHelpers.output.cache
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/formDemo.RazorCoreGenerate.cache
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs
-/Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Users/kgalang/Projects/bootcamp/CSharp/formDemo/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
