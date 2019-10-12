@@ -33,24 +33,26 @@ namespace formDemo.Controllers
             context.Lists.Add(newObject);
             context.SaveChanges();
 
-
             return RedirectToAction("NewPage");
         }
 
 
+        //[HttpGet] ??
         public ActionResult Show()
 
         {
-             FORMDBContext context = new FORMDBContext();
+            FORMDBContext context = new FORMDBContext();
             List<Lists> all = context.Lists.ToList();
             ViewBag.AllListItems = all;
             return View();
         }
 
+        
         public ActionResult NewPage()
         {
             return View();
         }
+        
     }
 }
 
