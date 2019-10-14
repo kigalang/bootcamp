@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
-import OwnComponent from './OwnComponent';
-import Nappi from './Nappi';
+import Calc from './Calc'
 function App() {
   return (
     <div className="App">
     
-      <Nappi teksti="Oma Nappi" />
-      <Nappi teksti="Lataa tiedot" />
-      <Nappi teksti="Tallenna" />
-      <Nappi teksti="Peruuta" />
-      <OwnComponent />   
+    <Calc />
+
+  
+
     </div>
   );
 }
