@@ -24,6 +24,14 @@ namespace formDemo.Controllers
         [HttpPost]
         public ActionResult Submit(string textBoxStringData)
         {
+            bool checkSum = string.IsNullOrEmpty(textBoxStringData); 
+           
+            if (!checkSum)
+            {
+                return RedirectToAction ("Index");
+            }
+            else 
+            {                      
             FORMDBContext context = new FORMDBContext();
             Lists newObject = new Lists() {
                 ListData = textBoxStringData,
@@ -32,12 +40,10 @@ namespace formDemo.Controllers
 
             context.Lists.Add(newObject);
             context.SaveChanges();
-
             return RedirectToAction("NewPage");
+            }
         }
 
-
-        //[HttpGet] ??
         public ActionResult Show()
 
         {
