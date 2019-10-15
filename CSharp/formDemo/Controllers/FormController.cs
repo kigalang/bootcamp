@@ -34,6 +34,12 @@ namespace formDemo.Controllers
             return RedirectToAction("ConfirmationPage");            
         }
 
+        //Show confirmation that the data was inserted into DB
+        public ActionResult ConfirmationPage()
+        {
+            return View();
+        }
+
         //List the contents of the database
         public ActionResult Show()
 
@@ -44,11 +50,7 @@ namespace formDemo.Controllers
             return View();
         }
 
-        //Show confirmation that the data was inserted into DB
-        public ActionResult ConfirmationPage()
-        {
-            return View();
-        }
+        
         
     }
 }
