@@ -11,27 +11,18 @@ namespace formDemo.Controllers
     public class FormController : Controller
     {
 
-        // GET: Form
+        // Show the default index page view
         public ActionResult Index()
         {
-            FORMDBContext context = new FORMDBContext();
-            List<Lists> all = context.Lists.ToList();
-            ViewBag.AllListItems = all;
-
-            return View();
+            return View(); 
         }
+
+        //Insert submitted data into database
 
         [HttpPost]
         public ActionResult Submit(string textBoxStringData)
         {
-            bool checkSum = string.IsNullOrEmpty(textBoxStringData); 
-           
-            if (!checkSum)
-            {
-                return RedirectToAction ("Index");
-            }
-            else 
-            {                      
+                                  
             FORMDBContext context = new FORMDBContext();
             Lists newObject = new Lists() {
                 ListData = textBoxStringData,
@@ -40,10 +31,10 @@ namespace formDemo.Controllers
 
             context.Lists.Add(newObject);
             context.SaveChanges();
-            return RedirectToAction("NewPage");
-            }
+            return RedirectToAction("ConfirmationPage");            
         }
 
+        //List the contents of the database
         public ActionResult Show()
 
         {
@@ -53,17 +44,12 @@ namespace formDemo.Controllers
             return View();
         }
 
-        
-        public ActionResult NewPage()
+        //Show confirmation that the data was inserted into DB
+        public ActionResult ConfirmationPage()
         {
             return View();
         }
         
-        public ActionResult test()
-        {
-            return View();
-        }
-
     }
 }
 
